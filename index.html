@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Plane</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style media="screen">
+      #worldPane{
+        margin-top: 1rem;
+        height: auto;
+        width: auto;
+        background-color: rgb(161, 174, 184);
+        box-shadow: .1rem .1rem .1rem 0rem #000000;
+        line-height: 0 !important;
+        border-radius: .3rem;
+      }
+      #statusPane{
+        margin-top: .5rem;
+        height: auto;
+        width: auto;
+        background-color: rgb(161, 174, 184);
+        box-shadow: .1rem .1rem .1rem 0rem #000000;
+        border-radius: 1rem;
+      }
+      .grid{
+        margin-top: 0;
+        margin-bottom: 0;
+        display: inline-block;
+        height:2rem;
+        width:.8rem;
+      }
+      .con1{
+        background-color: rgb(68, 68, 79);
+      }
+      .btn{
+        box-shadow: .1rem .1rem .1rem 0rem #000000;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12" id="worldPane">
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12" id="statusPane">
+          <button type="button" class="btn btn-success" id="btnStart">
+            Start?
+          </button>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
